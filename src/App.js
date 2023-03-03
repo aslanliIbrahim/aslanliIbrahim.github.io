@@ -4,7 +4,7 @@ import Routes from "./routes";
 
 function App() {
   return (
-    <Router basename="/proxy-brand-tt">
+    <Router basename={process.env.REACT_APP_BASE_URL}>
       <Routes />
     </Router>
   );
