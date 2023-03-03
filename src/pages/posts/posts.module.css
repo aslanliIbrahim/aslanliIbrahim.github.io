@@ -1,11 +1,37 @@
-.postContainer{
-    max-width: 500px;
-    background-color: lightcoral;
-    margin: 6px;
-    padding: 10px;
+.postContainer {
+  max-width: 500px;
+  background-color: lightcoral;
+  margin: 6px;
+  padding: 10px;
 }
 
-.postContainer p:first-child{
-    font-weight: bold;
-    margin-bottom: 5px;
+.left h2 {
+  margin-left: 5px;
+}
+
+.postContainer p:first-child {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right button:hover {
+  cursor: pointer;
+  background-color: gray;
+  color: lightgray;
+}
+.right button {
+  margin-right: 5px;
+  margin-top: 5px;
+  border: none;
+  padding: 5px;
+  outline: none;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: bold;
+  background-color: lightgrey;
 }

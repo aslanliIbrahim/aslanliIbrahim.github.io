@@ -23,9 +23,11 @@
 
 .btnGroup button:hover {
   cursor: pointer;
+  background-color: gray;
+  color: white;
 }
 
-.btnGroup button{
+.btnGroup button {
   border: none;
   padding: 1px;
   outline: none;

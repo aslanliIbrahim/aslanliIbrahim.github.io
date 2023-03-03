@@ -36,3 +36,8 @@
   border-radius: 4px;
   cursor: pointer;
 }
+
+.closeBtn:hover {
+  background-color: lightgray;
+  color: black;
+}
