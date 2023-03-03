@@ -4,6 +4,7 @@ import Routes from "./routes";
 
 function App() {
   return (
+    // Remove the basename if you are going to launch it locally.
     <Router basename={process.env.REACT_APP_BASE_URL}>
       <Routes />
     </Router>
