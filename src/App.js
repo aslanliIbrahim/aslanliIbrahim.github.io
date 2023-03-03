@@ -4,7 +4,7 @@ import Routes from "./routes";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/proxy-brand-tt">
       <Routes />
     </Router>
   );
