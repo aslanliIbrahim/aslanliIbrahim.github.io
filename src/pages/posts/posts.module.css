@@ -1,0 +1,11 @@
+.postContainer{
+    max-width: 500px;
+    background-color: lightcoral;
+    margin: 6px;
+    padding: 10px;
+}
+
+.postContainer p:first-child{
+    font-weight: bold;
+    margin-bottom: 5px;
+}

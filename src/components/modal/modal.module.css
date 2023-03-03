@@ -1,0 +1,38 @@
+.modalView {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(248, 248, 248, 0.367);
+  backdrop-filter: blur(2px);
+  height: 100%;
+  padding: 20px;
+}
+
+.modalContainer {
+  border: 1px solid #ccc;
+  max-width: 500px;
+  width: 100%;
+  margin: 30px auto;
+  padding: 20px;
+  position: relative;
+  background-color: white;
+}
+
+.heading {
+  text-align: center;
+  font-weight: bold;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: gray;
+  color: white;
+  padding: 5px;
+  border: none;
+  height: 25px;
+  border-radius: 4px;
+  cursor: pointer;
+}

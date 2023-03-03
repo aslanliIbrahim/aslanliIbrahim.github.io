@@ -1,0 +1,11 @@
+.albumContainer{
+    max-width: 500px;
+    background-color: lightcoral;
+    margin: 6px;
+    padding: 10px;
+}
+
+.albumContainer p{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
